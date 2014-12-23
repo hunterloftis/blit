@@ -1,0 +1,35 @@
+{
+  "name": "blit",
+  "version": "1.0.0",
+  "description": "2D Sprites via WebGL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "mkdir -p build && watchify index.js -d -s Blit -o build/blit.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hunterloftis/blit.git"
+  },
+  "keywords": [
+    "sprite",
+    "game",
+    "graphics",
+    "webgl",
+    "2d",
+    "blit",
+    "bitblt"
+  ],
+  "author": "Hunter Loftis <hunter@hunterloftis.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hunterloftis/blit/issues"
+  },
+  "homepage": "https://github.com/hunterloftis/blit",
+  "devDependencies": {
+    "browserify": "^7.0.3",
+    "gl-matrix-mat3": "^2.2.1-npm",
+    "gl-matrix-vec2": "^2.2.1-npm",
+    "watchify": "^2.2.1"
+  }
+}
